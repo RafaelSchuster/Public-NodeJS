@@ -1,7 +1,6 @@
 const fs = require('fs');
 const http = require('http');
 const port = 5000;
-
 const server = http.createServer((req, res) => {
     let filePath;
     switch (req.url) {
